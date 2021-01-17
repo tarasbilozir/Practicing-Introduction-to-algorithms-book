@@ -6,9 +6,9 @@ for (let j = 1; j < input.length; j++) {
 
   while(i >= 0 && input[i] > key) {
     input[i + 1] = input[i];
-    i = i - 1; // i = 1
+    i = i - 1;
   }
-  console.log(input);
+
   input[i + 1] = key;
 }
 
